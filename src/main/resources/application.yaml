@@ -1,11 +1,11 @@
 spring:
-    flyway:
-        schemas: students
-        create-schemas: true
-        url: jdbc:postgresql://localhost:5432/students
-        password: ${POSTGRES_PASSWORD}
-        username: ${POSTGRES_USER}
-    datasource:
-        password: ${POSTGRES_PASSWORD}
-        username: ${POSTGRES_USER}
-        url: jdbc:postgresql://localhost:5432/students
+  flyway:
+    schemas: students
+    create-schemas: true
+    url: jdbc:postgresql://localhost:5432/students
+    password: ${POSTGRES_PASSWORD}
+    user: ${POSTGRES_USER}
+  datasource:
+    password: ${POSTGRES_PASSWORD}
+    username: ${POSTGRES_USER}
+    url: jdbc:postgresql://localhost:5432/students
