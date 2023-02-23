@@ -1,0 +1,11 @@
+spring:
+    flyway:
+        schemas: students
+        create-schemas: true
+        url: jdbc:postgresql://localhost:5432/students
+        user: theo
+        password: banane
+    datasource:
+        password: banane
+        username: theo
+        url: jdbc:postgresql://localhost:5432/students
