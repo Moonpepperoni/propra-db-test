@@ -8,5 +8,5 @@ services:
       - "./data:/var/lib/postgresql/data"
     environment:
       - "POSTGRES_DB=students"
-      - "POSTGRES_USER=theo"
-      - "POSTGRES_PASSWORD=banane"
+      - "POSTGRES_USER=${POSTGRES_USER}"
+      - "POSTGRES_PASSWORD=${POSTGRES_PASSWORD}"

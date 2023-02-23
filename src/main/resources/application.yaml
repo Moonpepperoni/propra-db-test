@@ -3,9 +3,9 @@ spring:
         schemas: students
         create-schemas: true
         url: jdbc:postgresql://localhost:5432/students
-        user: theo
-        password: banane
+        password: ${POSTGRES_PASSWORD}
+        username: ${POSTGRES_USER}
     datasource:
-        password: banane
-        username: theo
+        password: ${POSTGRES_PASSWORD}
+        username: ${POSTGRES_USER}
         url: jdbc:postgresql://localhost:5432/students
